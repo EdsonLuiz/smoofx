@@ -18,14 +18,6 @@ body {
     display: block;
     margin: 0 auto;
   }
-
-  > .description {
-    background-color: #f9f9f9;
-    color: #333333;
-    padding: 10px;
-    text-align: center;
-  }
-
   &.-rounded {
     border-radius: 10px;
     > .description {
@@ -35,7 +27,21 @@ body {
   }
 }
 
-.description {
+.card-footer {
+  background-color: #e0e0e0;
+  padding: 10px;
+  text-align: center;
+  > .description {
+    color: #777;
+    margin: 0 auto;
+  }
+  > .action {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    color: #aaa;
+    padding: 3px 8px;
+  }
   &.-greentop {
     border-top: 4px solid #47a951;
   }
