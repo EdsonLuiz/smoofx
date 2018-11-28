@@ -1,0 +1,24 @@
+{
+  "name": "smoofx",
+  "version": "1.0.0",
+  "description": "Para estudar RSCSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdsonLuiz/smoofx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/EdsonLuiz/smoofx/issues"
+  },
+  "homepage": "https://github.com/EdsonLuiz/smoofx#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.15.1"
+  }
+}

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+  font-family: Helvetica;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 200px;
+
+  > .image {
+    display: block;
+    margin: 0 auto;
+  }
+
+  > .description {
+    background-color: #f9f9f9;
+    color: #333333;
+    text-align: center;
+  }
+}
