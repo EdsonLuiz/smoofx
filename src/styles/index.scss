@@ -28,7 +28,7 @@ body {
 .card-list {
   margin: 0 auto;
   width: 660px;
-
+  @include clearfix;
   > .feature-card {
     float: left;
     margin: 10px;
@@ -87,5 +87,11 @@ body {
   }
   &.-redtop {
     border-top: 4px solid #b30d0d;
+  }
+  &.-dark {
+    background-color: #555555;
+    > .description {
+      color: #aaa;
+    }
   }
 }
