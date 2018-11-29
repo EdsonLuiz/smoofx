@@ -1,9 +1,22 @@
+// SETTINGS
+
+// TOOLS
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// GENERIC
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+// BASE / ELEMENTS
 body {
   background-color: #333333;
   font-family: Helvetica;
